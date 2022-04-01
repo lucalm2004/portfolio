@@ -107,6 +107,24 @@ body{
     text-align: center;
 }
 
+.a-v {
+    text-decoration: none;
+    color: green;
+}
+
+.rojo:hover {
+    color: red;
+}
+
+.zoom:hover {
+transform: scale(1.2); 
+transition: transform .3s;   
+}
+
+h1:hover{
+color: red;
+}
+
 /* Otras clases */
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
 .flex{
@@ -123,6 +141,8 @@ body{
     img {
         height: 40vw;
     }
+
+
     /* column-3 pasará de tener 33.33% a 100% */
     .column-3{
         width: 100%;
